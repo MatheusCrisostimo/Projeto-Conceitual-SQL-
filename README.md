@@ -1,55 +1,19 @@
-# Projeto-Conceitual-de-Banco-de-Dados-E-COMMERCE-Final-
-Projeto de E-commerce - Referente a venda de produto
+# Sou comprometido com a inovação e aprimoramento de processos, além da capacidade de adaptação, iniciativa, proatividade e senso de responsabilidade. 
+Possuo experiência em redução de custos, emissão de pedidos, controle de compras, negociação com fornecedores e desenvolvimento de novos fornecedores. 
+Minhas principais competências incluem melhoria de processos, desenvolvimento de iniciativas estratégicas, gestão de relacionamento com fornecedores e negociação. 
 
-https://dbdesigner.page.link/ikUap8tNtvEmEe6e8
+Conhecimentos Técnicos:
+Microsoft 365 | Desenvolvimento do PWA Microsoft | Power BI
+Ferramentas: Excel, SQL, Python, Power Apps
+Metodologias: SCRUM | Yellow Belt Six Sigma
+
+Principais Responsabilidades:
+Aquisições em TI, Assistência Técnica e Almoxarifado.
+Cadastro e pesquisa de fornecedores nacionais e internacionais.
+Avaliação e negociação de contratos.
+Desenvolvimento de KPIs com Power BI
+Follow-up de pedidos.
+Gestão de prazos de entrega e suporte à liderança.
 
 
-Cliente {
-	idCliente varchar pk null >* Pedido.idPedido
-	Nome integer
-	Pagamento integer >* Pagamento.Forma_de_Pagamento
-	CPF_ou_CNPJ varchar null unique
-}
-
-Pedido {
-	idPedido integer pk null *>* Produto.idProduto
-	Status_do_Pedido varchar
-	descrição varchar
-	Frete float
-}
-
-Fornecedor {
-	Razão_Social varchar
-	CNPJ varchar unique
-	idFornecedor integer pk null
-}
-
-Estoque {
-	idEstoque integer pk null *>* Produto.idProduto
-	Local varchar
-}
-
-Produto {
-	idProduto integer pk null *>* Fornecedor.idFornecedor
-	Categoria varchar
-	Descrição varchar
-	Valor varchar
-}
-
-Terceiro_Vendedor {
-	idVendedor integer pk null unique *>* Produto.idProduto
-	Razão_Socual varchar
-	Local varchar
-}
-
-Entrega {
-	idEntrega integer pk null *> Pedido.idPedido
-	Status integer
-	Código_de_rastreio integer
-}
-
-Pagamento {
-	idPagamento integer pk null
-	Forma_de_Pagamento varchar null
-}
-
+[https://dbdesigner.page.link/ikUap8tNtvEmEe6e8](https://www.linkedin.com/in/matheus-crisostimo/)
