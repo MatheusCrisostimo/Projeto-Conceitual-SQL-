@@ -1,3 +1,7 @@
+# Projeto-Conceitual-Oficina
+
+https://dbdesigner.page.link/DAufXQtdtS51G6PX6
+
 Cliente { idCliente integer pk null >* Veículo.idveículo Nome varchar Endereço varchar }
 
 Ordem_de_Serviço { idOS integer pk null >* Peça.idPeça Numero integer Data_de_emissão date Valor_Total decimal status varchar data_de_conclusão date }
